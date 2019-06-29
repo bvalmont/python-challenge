@@ -41,10 +41,10 @@ with open(csvpath, newline='') as csvfile:
     Li = int(candidates.count("Li"))
     O_Tooley = int(candidates.count("O'Tooley"))
     #Get a percentage of each candidates vote total
-    Khan_percentage = (Khan/Total_Votes) * 100
-    Correy_percentage = (Correy/Total_Votes) * 100
-    Li_percentage = (Li/Total_Votes) * 100
-    O_Tooley_percentage = (O_Tooley/Total_Votes) * 100
+    Khan_percentage = round((Khan/Total_Votes) * 100, 2)
+    Correy_percentage = round((Correy/Total_Votes) * 100, 2)
+    Li_percentage = round((Li/Total_Votes) * 100, 2)
+    O_Tooley_percentage = round((O_Tooley/Total_Votes) * 100, 2)
     #Print each candidate's name, vote percentage, and raw number of votes
     print(f"Khan: {Khan_percentage}% ({Khan})") 
     print(f"Correy: {Correy_percentage}% ({Correy})") 
