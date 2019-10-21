@@ -15,5 +15,5 @@
   * The percentage of votes each candidate won
   * The total number of votes each candidate won
   * The winner of the election based on popular vote
-## The script to run each of the python files are named main.py and are in each challenge's respective folders.  The script was originally run using Visual Studio Code.  
+## The script to run each of the python files are named main.py and are in each challenge's respective folders.  The script was originally run using Visual Studio Code.  Each folder also contains the data in .csv format.
 
