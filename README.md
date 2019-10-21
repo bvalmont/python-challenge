@@ -7,5 +7,13 @@
   * The average of the changes in "Profit/Losses" over the entire period
   * The greatest increase in profits (date and amount) over the entire period
   * The greatest decrease in losses (date and amount) over the entire period
+## PyPoll
+# ![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ3lIj1CXE4l9JGXd1sWItf-ple9lnO9ifujqBYhPj8sG2jz9g)
+## The purpose of te PyPoll challenge is to help a small, fictional town to modernize its vote-counting process.  The dataset in this challenge includes three columns inside a .csv file which include voter id, county, and the candidate name.  The Pyton script sould analyze the votes and calculate each of the following:
+  * The total number of votes cast
+  * A complete list of candidates who received votes
+  * The percentage of votes each candidate won
+  * The total number of votes each candidate won
+  * The winner of the election based on popular vote
 
 
